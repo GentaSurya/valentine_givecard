@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(180deg, rgb(200, 0, 110), rgb(255, 61, 61));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.container {
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.name {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.name::first-letter{
+    text-transform: uppercase;
+}
+.button {
+    border-radius: 6px;
+    border: 2px white solid;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    height: 40px;
+    width: auto;
+}

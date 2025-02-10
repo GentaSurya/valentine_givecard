@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Card</title>
+    <link rel="icon" type="/chatgpt/icon/heart.png" href="/chatgpt/icon/heart.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="title">SIAPA KAMU?</div>
+        <div class="header">VALENTINE GIVE CARD (NOT FOR SINGLE)</div>
+        <input type="text" class="name" autofocus oninput="limitTextWidth(event)" aria-label="Enter your name" placeholder="NAME">
+        <button id="nextButton" onclick="saveNameAndRedirect()">Next</button>
+
+        <img src="gif/cat-love.gif" alt="White Cat" class="first_cat" onerror="this.onerror=null; this.alt='Cat image not available';">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
